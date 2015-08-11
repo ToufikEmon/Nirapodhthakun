@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/lalbag_kella_dhaka" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnSavarThanaDhaka"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/savar_thana_dhaka"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnNawabganjThanaDhaka"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/nawabganj_thana_dhaka"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnDhakaCityDhaka"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/dhaka_city_thana"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnDhamraiThanaDhaka"
+        android:layout_width="80sp"
+        android:layout_height="60sp"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/dhaka_rounded_corner_button_design"
+        android:text="@string/dhamrai_thana_dhaka"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnDoharThanaDhaka"
+        android:layout_width="80sp"
+        android:layout_height="60sp"
+        android:layout_alignLeft="@+id/linearLayout3"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/dhaka_rounded_corner_button_design"
+        android:text="@string/dohar_thana_dhaka"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnKeraniganjThnaDhaka"
+        android:layout_width="80sp"
+        android:layout_height="60sp"
+        android:layout_alignLeft="@+id/linearLayout2"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/dhaka_rounded_corner_button_design"
+        android:text="@string/keraniganj_thana_dhaka"
+        android:textSize="12sp" />
+
+</RelativeLayout>

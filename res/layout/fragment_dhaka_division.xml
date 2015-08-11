@@ -1,0 +1,188 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/dhaka_background">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnNetrokonDistirct"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/netrokona_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnRajbariDistric"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/rajbari_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnShariatpurDistrict"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/shariatpur_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSherpurDistrict"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/sherpur_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnTangailDistrict"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/tangail_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnGazipurDistrict"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/gazipur_district_name_in_bangla"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnManikgonjDistrict"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/manikganj_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnMymenshinghDistrict"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/mymensingh_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnNarayanGanjDistrict"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/narayanganj_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnJamalpurDistrict"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/jamalpur_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnNorshinghdhiDistrict"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/narsingdi_district_name_in_bangla"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnDhakaDisctrict"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/dhaka_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnFaridpurDistrict"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/faridpur_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnGopalgonjDistrict"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/goplagonj_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnKishorganjDistrict"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/kishoreganj_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnMadaripurDistrict"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/madaripur_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnMunshigonjDistrict"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/munshiganj_district_name_in_bangla"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

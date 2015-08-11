@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bhola_district" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnLalmohanThanaBhola"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/borisal_rounded_corners_button"
+            android:text="@string/lalmohan_thana_bhola"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnManpuraThanaBhola"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/borisal_rounded_corners_button"
+            android:text="@string/manpura_thana_bhola"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnCharfassonThanaBhola"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/borisal_rounded_corners_button"
+            android:text="@string/char_fason_thana_bhola"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnDaulatkhanThanaBhola"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/borisal_rounded_corners_button"
+            android:text="@string/daulatkhan_thana_bhola"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnTazumuddinThanaBhola"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/borisal_rounded_corners_button"
+            android:text="@string/tazimuddin_thana_bhola"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnBholaSadarThanaBhola"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/borisal_rounded_corners_button"
+            android:text="@string/sadar_thana"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBurhanuddinThanaBhola"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/borisal_rounded_corners_button"
+            android:text="@string/burhanuddin_thana_bhola"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

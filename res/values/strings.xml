@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">নিরাপদ থাকুন</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Home Fragment Button Name -->
+
+    <string name="nari_surokkha_button">নারী সুরক্ষা</string>
+    <string name="dhaka_division_button">ঢাকা বিভাগ</string>
+    <string name="khulna_division_button">খুলনা বিভাগ</string>
+    <string name="chittagong_division_button">চট্রগ্রাম বিভাগ</string>
+    <string name="rajshahi_division_button">রাজশাহী বিভাগ</string>
+    <string name="borisal_division_button">বারিশাল বিভাগ</string>
+    <string name="sylhet_division_button">সিলেট বিভাগ</string>
+    <string name="rangpur_division_button">রংপুর বিভাগ</string>
+
+    <!-- Home Fragment Button text finished -->
+
+
+    <!-- Menu Item -->
+    <string-array name="nav_drawer_item">
+        <item>হোম</item>
+        <item>নারী সুরক্ষা</item>
+        <item>ঢাকা বিভাগ</item>
+        <item>খুলনা বিভাগ</item>
+        <item>চট্রগ্রাম বিভাগ</item>
+        <item>রাজশাহী বিভাগ </item>
+        <item>বারিশাল বিভাগ</item>
+        <item>সিলেট বিভাগ</item>
+        <item>রংপুর বিভাগ</item>
+        <item>আমার  সম্পর্কে জানুন</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/women</item>
+        <item>@drawable/dhaka</item>
+        <item>@drawable/khulna</item>
+        <item>@drawable/chittagong</item>
+        <item>@drawable/rajshahi</item>
+        <item>@drawable/barisal</item>
+        <item>@drawable/sylhet</item>
+        <item>@drawable/rangpur</item>
+        <item>@drawable/me</item>
+    </array>
+
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <!-- Dhaka Division District Name Start here -->
+
+    <string name="dhaka_district_name_in_bangla">ঢাকা জেলা</string>
+    <string name="faridpur_district_name_in_bangla">ফারিদপুর  জেলা </string>
+    <string name="gazipur_district_name_in_bangla">গাজীপুর  জেলা </string>
+    <string name="goplagonj_district_name_in_bangla">গোপালগঞ্জ জেলা</string>
+    <string name="jamalpur_district_name_in_bangla">জামালপুর জেলা</string>
+    <string name="kishoreganj_district_name_in_bangla">কিশোরগঞ্জ জেলা</string>
+    <string name="madaripur_district_name_in_bangla">মাদারিপুর জেলা</string>
+    <string name="manikganj_district_name_in_bangla">মানিকগঞ্জ জেলা</string>
+    <string name="munshiganj_district_name_in_bangla">মুন্সিগঞ্জ জেলা</string>
+    <string name="mymensingh_district_name_in_bangla">ময়মনসিংহ জেলা</string>
+    <string name="narayanganj_district_name_in_bangla">নারায়গঞ্জ জেলা</string>
+    <string name="narsingdi_district_name_in_bangla">নরসিংদী জেলা </string>
+    <string name="netrokona_district_name_in_bangla">নেত্রকোনা জেলা</string>
+    <string name="rajbari_district_name_in_bangla">রাজবাড়ী জেলা</string>
+    <string name="shariatpur_district_name_in_bangla">শারিয়াতপুর জেলা</string>
+    <string name="sherpur_district_name_in_bangla">শেরপুর জেলা</string>
+    <string name="tangail_district_name_in_bangla">টাঙ্গাইল জেলা</string>
+    <!-- Dhaka Division District Name End Here -->
+
+
+    <!-- District In Borisal Division Start here -->
+    <string name="borguna_district_name_in_bangla">বরগুনা  জেলা</string>
+    <string name="borisal_district_name_in_bangla">বরিশাল  জেলা</string>
+    <string name="vhola_district_name_in_bangla">ভোলা  জেলা</string>
+    <string name="jhalokhati_district_name_in_bangla">ঝালকাঠী  জেলা</string>
+    <string name="potuakhali_district_name_in_bangla">পটুয়াখালী  জেলা</string>
+    <string name="pirojpur_district_name_in_bangla">পিরোজপুর  জেলা</string>
+    <!-- District In Borisal Division Ends Here -->
+
+
+    <!-- Barisal District All Thana Name In Bangla Starts here -->
+
+    <string name="sadar_thana_barisal_district">সদর থানা</string>
+    <string name="bakerganj_thana_barisal_district">বাকেরগঞ্জ  থানা</string>
+    <string name="babuganj_thana_barisal_district">বাবুগঞ্জ  থানা</string>
+    <string name="wazirpur_thana_barisal_district">উজিরপুর   থানা</string>
+    <string name="banipara_thana_barisal_district">বানারীপাড়া  থানা</string>
+    <string name="gournodi_thana_barisal_district">গৌরনদী  থানা</string>
+    <string name="agailjhara_thana_barisal_district">আগৈলঝাড়া  থানা</string>
+    <string name="hizla_thana_barisal_district">হিজলা  থানা</string>
+    <string name="mehendiganj_thana_barisal_district">মেহেন্দিগঞ্জ  থানা</string>
+    <string name="muladi_thana_barisal_district">মুলাদী  থানা</string>
+
+    <!-- Barisal District All Thana Name End Here -->
+
+
+    <!-- Barisal Sadar Thana Important Number -->
+    <string name="duity_officer_barisal_sadar_thana_button">ডিউটি  অফিসার \n০১৭৬০৫৬৮৬৩৯</string>
+    <string name="rab_barisal_sadar_thana_button">র‌্যাব \n০১৭৬০৫৬৮৬৩৯</string>
+    <string name="oc_barisal_sadar_thana_button">ও সি  \n০১৭৬০৫৬৮৬৩৯</string>
+    <string name="db_barisal_sadar_thana_button">ডি বি  \n০১৭৬০৫৬৮৬৩৯</string>
+
+    <!-- District In Chittagong Division Starts Here -->
+    <string name="bandarban_district_name_in_bangla">বান্দরবান  জেলা</string>
+    <string name="brammanbaria_district_name_in_bangla">ব্রাক্ষ্মণবাড়িয়া  জেলা</string>
+    <string name="chadpur_district_name_in_bangla">চাঁদপুর  জেলা</string>
+    <string name="chittagong_district_name_in_bangla">চট্রগ্রাম  জেলা</string>
+    <string name="comilla_district_name_in_bangla">কুমিল্লা  জেলা</string>
+    <string name="cox_district_name_in_bangla">কক্সবাজার  জেলা</string>
+    <string name="feni_district_name_in_bangla">ফেনী  জেলা</string>
+    <string name="khagracori_district_name_in_bangla">খাগড়াছড়ি  জেলা</string>
+    <string name="lokkhipur_district_name_in_bangla">লক্ষ্মীপুর  জেলা</string>
+    <string name="noakhali_district_name_in_bangla">নোয়াখালী জেলা</string>
+    <string name="rangamati_district_name_in_bangla">রাঙ্গামাটি  জেলা</string>
+
+    <!-- District In Chittagong Division Ends Here -->
+
+
+    <!-- District In Khulna Division Starts Here -->
+    <string name="bagerhat_district_name_in_bangla">বাগেরহাট  জেলা</string>
+    <string name="chuadanga_district_name_in_bangla">চুয়াডাঙ্গা  জেলা</string>
+    <string name="jessore_district_name_in_bangla">যশোর  জেলা</string>
+    <string name="jhenaidah_district_name_in_bangla">ঝিনাইদহ  জেলা</string>
+    <string name="khulna_district_name_in_bangla">খুলনা  জেলা</string>
+    <string name="kustia_district_name_in_bangla">কুষ্টিয়া  জেলা</string>
+    <string name="magura_district_name_in_bangla">মাগুরা  জেলা</string>
+    <string name="meherpur_district_name_in_bangla">মেহেরপুর  জেলা</string>
+    <string name="norail_district_name_in_bangla">নড়াইল  জেলা</string>
+    <string name="shatkhira_district_name_in_bangla">সাতক্ষীরা  জেলা</string>
+
+    <!-- District In Khulna Division Ends Here -->
+
+
+    <!-- District In Rajshahi Division Starts here -->
+    <string name="bogra_district_name_in_bangla">বগুড়া  জেলা</string>
+    <string name="chapainawabganj_district_name_in_bangla">চাঁপাই নবাবগঞ্জ  জেলা</string>
+    <string name="joypurhat_district_name_in_bangla">জয়পুরহাট  জেলা</string>
+    <string name="pabna_district_name_in_bangla">পাবনা  জেলা</string>
+    <string name="naogaon_district_name_in_bangla">নওগাঁ  জেলা</string>
+    <string name="natore_district_name_in_bangla">নাটোর  জেলা</string>
+    <string name="rajshahi_district_name_in_bangla">রাজশাহী  জেলা</string>
+    <string name="sirajgonj_district_name_in_bangla">সিরাজগঞ্জ  জেলা</string>
+
+    <!-- District In Rajshahi Division Ends Here -->
+
+
+    <!-- District In Rangpur Division Starts here -->
+    <string name="dinajpur_district_name_in_bangla">দিনাজপুর  জেলা</string>
+    <string name="gaibandha_district_name_in_bangla">গাইবান্ধা  জেলা</string>
+    <string name="kurigram_district_name_in_bangla">কুড়িগ্রাম  জেলা</string>
+    <string name="lalmonirhat_district_name_in_bangla">লালমনিরহাট  জেলা</string>
+    <string name="nilphamari_district_name_in_bangla">নীলফামারী  জেলা</string>
+    <string name="panchagar_district_name_in_bangla">পঞ্চগড়  জেলা</string>
+    <string name="rongpur_district_name_in_bangla">রংপুর  জেলা</string>
+    <string name="thakurgaon_district_name_in_bangla">ঠাকুরগাঁও  জেলা</string>
+    <!-- District In Rangpur Division Ends Here -->
+
+
+    <!-- District In Sylhet Division Starts here -->
+    <string name="hobiganj_district_name_in_bangla">হবিগঞ্জ  জেলা</string>
+    <string name="moulvibazar_district_name_in_bangla">মৌলভীবাজার  জেলা</string>
+    <string name="sunamganj_district_name_in_bangla">সুনামগঞ্জ  জেলা</string>
+    <string name="sylhet_district_name_in_bangla">সিলেট  জেলা</string>
+    <!-- District In Sylhet Division Ends Here -->
+
+
+    <!-- All Thana Name In Bangla Starts Here -->
+
+    <string name="akkelpur_thana_joyurhat">আক্কেলপুর থানা</string>
+    <string name="sadar_thana_joyurhat">সদর থানা</string>
+    <string name="kalai_thana_joyurhat">কালাই থানা</string>
+    <string name="khetlal_thana_joyurhat">ক্ষেতলাল </string>
+    <string name="panchbibi_thana_joyurhat">পাঁচবিবি </string>
+    <string name="adamdighi_thana_bogra">আদমদিঘী</string>
+    <string name="sadar_thana_bogra">সদর</string>
+    <string name="dhunat_thana_bogra">ধুনট</string>
+    <string name="dhupchanchia_thana_bogra">ধুপচাঞ্ছিয়া</string>
+    <string name="gabtali_thana_bogra">গাবতলি</string>
+    <string name="kahaloo_thana_bogra">কাহালু</string>
+    <string name="nandigram_thana_bogra">নন্দীগ্রাম</string>
+    <string name="sariakandi_thana_bogra">সারিয়াকান্দি</string>
+    <string name="shajhanpur_thana_bogra">শাজাহানপুর</string>
+    <string name="sherpur_thana_bogra">শেরপুর</string>
+    <string name="shibganj_thana_bogra">শিবগঞ্জ</string>
+    <string name="sonatola_thana_bogra">সোনাতলা</string>
+    <string name="atrai_thana_naogaon">আত্রাই</string>
+    <string name="badalgachhi_thana_naogaon">বাদলগাছি</string>
+    <string name="manada_thana_naogaon">মানদা</string>
+    <string name="dhamoirhat_thana_naogaon">ধমইরহাট</string>
+    <string name="mohadevpur_thana_naogaon">মহাদেভপুর</string>
+    <string name="sadar_thana_naogaon">সদর</string>
+    <string name="niamtpur_thana_naogaon">নিয়ামতপুর</string>
+    <string name="patnitala_thana_naogaon">পত্নীতলা</string>
+    <string name="porsha_thana_naogaon">পরশা</string>
+    <string name="raninagar_thana_naogaon">রানীনগর</string>
+    <string name="sapahar_thana_naogaon">সাপাহার</string>
+    <string name="bagatipara_thana_natore">বাগাতিপারা</string>
+    <string name="baraigram_thana_natore">বড়াইগ্রাম</string>
+    <string name="gurudaspur_thana_natore">গুরুদাসপুর</string>
+    <string name="lalpur_thana_natore">লালপুর</string>
+    <string name="sadar_thana_natore">সদর</string>
+    <string name="singra_thana_natore">শিঙরা</string>
+    <string name="naldanga_thana_natore">নলদাঙ্গা</string>
+    <string name="bholahat_thana_nawabganj">ভলাহাট</string>
+    <string name="gomastaur_thana_nawabganj">গমস্তাপুর</string>
+    <string name="nachole_thana_nawabganj">নাচোল</string>
+    <string name="sadar_thana_nawabganj">সদর</string>
+    <string name="shibganj_thana_nawabganj">শিবগঞ্জ</string>
+    <string name="ataikula_thana_pabna">আতাইকলা</string>
+    <string name="atgharia_thana_pabna">আটঘারিয়া</string>
+    <string name="bera_thana_pabna">বেড়া</string>
+    <string name="bhangura_thana_pabna">ভাঙ্গুরা</string>
+    <string name="chatmohar_thana_pabna">চাটমোহর</string>
+    <string name="faridpur_thana_pabna">ফরিদপুর</string>
+    <string name="ishwardi_thana_pabna">ঈশ্বরদী</string>
+    <string name="sadar_thana_pabna">সদর</string>
+    <string name="santhia_thana_pabna">সাথিয়া</string>
+    <string name="sujanagar_thana_pabna">সুজানগর</string>
+    <string name="belkuchi_thana_sirajganj">বেলকুচি</string>
+    <string name="chuahali_thana_sirajganj">ছুয়াহালি</string>
+    <string name="kamarkhanda_thana_sirajganj">কামারকান্দা</string>
+    <string name="kazipur_thana_sirajganj">কাজিপুর</string>
+    <string name="raiganj_thana_sirajganj">রাণীগঞ্জ</string>
+    <string name="shahjadpur_thana_sirajganj">শাহজাদপুর</string>
+    <string name="sadar_thana_sirajganj">সদর</string>
+    <string name="tarash_thana_sirajganj">তারাশ</string>
+    <string name="ullahpara_thana_sirajganj">উল্লাপাড়া</string>
+    <string name="bagha_thana_rajshahi">বাঘা</string>
+    <string name="bagmara_thana_rajshahi">বাগমারা</string>
+    <string name="charghat_thana_rajshahi">চারঘাট</string>
+    <string name="durgapur_thana_rajshahi">দুর্গাপুর</string>
+    <string name="godagari_thana_rajshahi">গোদাগাড়ী</string>
+    <string name="mohanpur_thana_rajshahi">মোহনপুর</string>
+    <string name="paba_thana_rajshahi">পাবা</string>
+    <string name="puthia_thana_rajshahi">পুথিয়া</string>
+    <string name="tanore_thana_rajshahi">তানর</string>
+    <string name="boalia_thana_rajshahi">বয়ালিয়া</string>
+    <string name="matihar_thana_rajshahi">মতিহার</string>
+    <string name="rajpara_thana_rajshahi">রাজপাড়া</string>
+    <string name="shah_makdum_thana_rajshahi">শাহ্‌ মাকদুম </string>
+    <string name="birampur_thana_dinajpur">বিরামপুর</string>
+    <string name="birganj_thana_dinajpur">বিরগঞ্জ</string>
+    <string name="biral_thana_dinajpur">বিরাল</string>
+    <string name="bochaganj_thana_dinajpur">বোচাগঞ্জ</string>
+    <string name="chirirbanda_thana_dinajpur">চিরিবান্ধা</string>
+    <string name="phulbari_thana_dinajpur">ফুলবাড়ি</string>
+    <string name="ghoraghat_thana_dinajpur">গরাঘাট</string>
+    <string name="hakimpur_thana_dinajpur">হাকিমপুর</string>
+    <string name="kahalore_thana_dinajpur">কাহালর</string>
+    <string name="khansama_thana_dinajpur">খানসামা</string>
+    <string name="sadar_thana_dinajpur">সদর</string>
+    <string name="nawabganj_thana_dinajpur">নওয়াবগঞ্জ</string>
+    <string name="parbatipur_thana_dinajpur">পার্বতীপুর</string>
+    <string name="phulchari_thana_gaibandha">ফুলছড়ি</string>
+    <string name="sadar_thana_gaibandha">সদর</string>
+    <string name="gobindaganj_thana_gaibandha">গোবিন্দগঞ্জ</string>
+    <string name="palashbari_thana_gaibandha">পালাশবাড়ী</string>
+    <string name="sadullapur_thana_gaibandha">সোদুল্লাপুর</string>
+    <string name="sughatta_thana_gaibandha">সুঘাট্টা</string>
+    <string name="sundarganj_thana_gaibandha">সুন্দরগঞ্জ</string>
+    <string name="bhurunamari_thana_kurigram">ভুরুঙ্গামারি</string>
+    <string name="char_rajibpur_thana_kurigram">চর রাজিবপুর</string>
+    <string name="chilmari_thana_kurigram">চিলমারী</string>
+    <string name="phulbari_thana_kurigram">ফুলবাড়ি</string>
+    <string name="sadar_thana_kurigram">সদর</string>
+    <string name="nadeshwari_thana_kurigram">নাদেশ্বরি</string>
+    <string name="rajarhat_thana_kurigram">রাজারহাট</string>
+    <string name="raomari_thana_kurigram">রউমারি</string>
+    <string name="ulipur_thana_kurigram">উলিপুর</string>
+    <string name="aditmari_thana_lalmonirhat">আদিতমারই</string>
+    <string name="hatibandha_thana_lalmonirhat">হাতিয়াবান্ধা</string>
+    <string name="kaliganj_thana_lalmonirhat">কালীগঞ্জ</string>
+    <string name="sadar_thana_lalmonirhat">সদর</string>
+    <string name="patgram_thana_lalmonirhat">পাটগ্রাম</string>
+    <string name="dimla_thana_nilphamari">ডিমলা</string>
+    <string name="domar_thana_nilphamari">ডুমার</string>
+    <string name="jalkanda_thana_nilphamari">জলকান্দা</string>
+    <string name="kishoreganj_thana_nilphamari">কিশরগঞ্জ</string>
+    <string name="sadar_thana_nilphamari">সদর</string>
+    <string name="saidpur_thana_nilphamari">সদরপুর</string>
+    <string name="atwari_thana_panchagar">আত্রাই</string>
+    <string name="boda_thana_panchagar">বোদা</string>
+    <string name="debiganj_thana_panchagar">দেবীগঞ্জ</string>
+    <string name="panchagarh_thana_panchagar">সদর</string>
+    <string name="tetulia_thana_panchagar">তেতুলিয়া</string>
+    <string name="badarganj_thana_rangpur">বদরগঞ্জ</string>
+    <string name="gangachhara_thana_rangpur">গাঙ্গাছড়া</string>
+    <string name="kaunia_thana_rangpur">কাউনিয়া</string>
+    <string name="rangpur_thana_rangpur">সদর</string>
+    <string name="mithapukur_thana_rangpur">মিঠাপুকুর</string>
+    <string name="pirgchha_thana_rangpur">পীরগাছা</string>
+    <string name="pirganj_thana_rangpur">পিরগঞ্জ</string>
+    <string name="taraganj_thana_rangpur">তারাগঞ্জ</string>
+    <string name="baliadangi_thana_thakurgaon">বালিয়াডাঙ্গি</string>
+    <string name="harirpur_thana_thakurgaon">হরিরপুর</string>
+    <string name="pirganj_thana_thakurgaon">পিরগঞ্জ</string>
+    <string name="ranisankail_thana_thakurgaon">রানিসাঙ্কাইল</string>
+    <string name="sadar_thana_thakurgaon">সদর</string>
+    
+    <string name="amtali_thana_barguna">আমতলী</string>
+    <string name="bamna_thana_barguna">বামনা</string>
+    <string name="sadar_thana_barguna">সদর</string>
+    <string name="betagi_thana_barguna">বেগাতি</string>
+    <string name="patharghata_thana_barguna">পাথরঘাটা</string>
+    <string name="taltoli_thana_barguna">তালতলি</string>
+    
+    <string name="agailjhara_thana_barisal">আগাইলঝারা</string>
+    <string name="babuganj_thana_barisal">বাবুগঞ্জ</string>
+    <string name="bakerganj_thana_barisal">বাকেরগঞ্জ</string>
+    <string name="banaripara_thana_barisal">বানারিপাড়া</string>
+    <string name="gaurnadi_thana_barisal">গৌরিনদী</string>
+    <string name="hizla_thana_barisal">হিযলা</string>
+    <string name="sadar_thana_barisal">সদর</string>
+    <string name="mehendiganj_thana_barisal">মেহেন্দিগঞ্জ</string>
+    <string name="muladi_thana_barisal">মুলাদি</string>
+    <string name="wazirpur_thana_barisal">ওয়াযিরপুর</string>
+    
+    <string name="sadar_thana_bhola">সদর</string>
+    <string name="burhanuddin_thana_bhola">বুরহানউদ্দিন</string>
+    <string name="char_fason_thana_bhola">চর ফ্যাশন</string>
+    <string name="daulatkhan_thana_bhola">দাউলাতখান</string>
+    <string name="lalmohan_thana_bhola">লালমোহন</string>
+    <string name="manpura_thana_bhola">মনপুরা</string>
+    <string name="tazimuddin_thana_bhola">তজিমুদ্দিন</string>
+    
+    <string name="sadar_thana">সদর</string>
+    <string name="dhaka_city_thana">ঢাকা শহর</string>
+    
+   
+    
+    <string name="kathalia_thana_jhalokati">কাঁঠালিয়া</string>
+    <string name="nalchity_thana_jhalokati">নলছিটি</string>
+    <string name="rajapur_thana_jhalokati">রাজাপুর</string>
+    <string name="bauphal_thana_patuakhali">বাউফল</string>
+    <string name="dashmina_thana_patuakhali">দশমিনা</string>
+    <string name="galachipa_thana_patuakhali">গলাচিপা</string>
+    <string name="kalapara_thana_patuakhali">কলাপাড়া</string>
+    <string name="mirzaganj_thana_patuakhali">মীর্জাগঞ্জ</string>
+    <string name="sadar_thana_patuakhali"></string>
+    <string name="rangabali_thana_patuakhali">রাঙ্গাবালি</string>
+    <string name="dumki_thana_patuakhali">দুমকি</string>
+    <string name="bhandaria_thana_pirajpur">ভান্ডারিয়া</string>
+    <string name="kawkhali_thana_pirajpur">কাওখালি</string>
+    <string name="mathbaria_thana_pirajpur">মঠবারিয়া</string>
+    <string name="nazirpur_thana_pirajpur">নাজিরপুর</string>
+    <string name="sadar_thana_pirajpur"></string>
+    <string name="nesarabad_thana_pirajpur">নেসারাবাদ</string>
+    <string name="zianagar_thana_pirajpur">জিয়ানগর</string>
+    <string name="ali_kadam_thana_bandarban">আলি কদম </string>
+    <string name="sadar_thana_bandarban"></string>
+    <string name="lama_thana_bandarban">লামা</string>
+    <string name="naikhongchhari_thana_bandarban">নাইখংছরি</string>
+    <string name="rowangchhari_thana_bandarban">রংছরি</string>
+    <string name="ruma_thana_bandarban">রুমা</string>
+    <string name="thanchi_thana_bandarban">থাঞ্ছি</string>
+    <string name="akhaura_thana_brahmanbaria">আখাউরা</string>
+    <string name="bancharampur_thana_brahmanbaria">বাঞ্ছারাম্পুর</string>
+    <string name="sadar_thana_brahmanbaria"></string>
+    <string name="kasba_thana_brahmanbaria">কসবা</string>
+    <string name="nabinagar_thana_brahmanbaria">নবীনগর</string>
+    <string name="nasirnagar_thana_brahmanbaria">নাসিরনগর</string>
+    <string name="sarail_thana_brahmanbaria">সরাইল</string>
+    <string name="ashuganj_thana_brahmanbaria">আশুগঞ্জ</string>
+    <string name="bijoynagar_thana_brahmanbaria">বিজয়নগর</string>
+    <string name="sadar_thana_chadpur"></string>
+    <string name="faridganj_thana_chadpur">ফরিদগঞ্জ</string>
+    <string name="haimchar_thana_chadpur">হাইমছড়ি</string>
+    <string name="haziganj_thana_chadpur">হাজীগঞ্জ</string>
+    <string name="kacua_thana_chadpur">কচুয়া</string>
+    <string name="matlab_daksin_thana_chadpur">মতলব দাক্ষীন</string>
+    <string name="matlab_uttar_thana_chadpur">মতলব উত্তর</string>
+    <string name="shahrasti_thana_chadpur">শরস্তি</string>
+    <string name="anwara_thana_chittagong">আনোয়ারা</string>
+    <string name="banshkhali_thana_chittagong">বাশখালী</string>
+    <string name="boalkhali_thana_chittagong">বোয়ালখালী</string>
+    <string name="chandanaish_thana_chittagong">চান্দানাইশ</string>
+    <string name="fatikchhari_thana_chittagong">ফটিকছড়ি</string>
+    <string name="hathazari_thana_chittagong">হাঠাজারি</string>
+    <string name="lohagara_thana_chittagong">লোহাগড়া</string>
+    <string name="mirsharai_thana_chittagong">মিরসরাই</string>
+    <string name="patiya_thana_chittagong">পাতিয়া</string>
+    <string name="rangunia_thana_chittagong">রাঙ্গুনিয়া</string>
+    <string name="raozan_thana_chittagong">রাওজান</string>
+    <string name="sandwip_thana_chittagong">সন্দ্বীপ</string>
+    <string name="satkania_thana_chittagong">সাতকানিয়া</string>
+    <string name="sitakunda_thana_chittagong">সীতাকুণ্ড</string>
+    <string name="bandor_thana_chittagong">বন্দর</string>
+    <string name="chandgaon_thana_chittagong">চাদ্গাওন</string>
+    <string name="double_mooring_thana_chittagong">ডাবল মুরিং</string>
+    <string name="kotwali_thana_chittagong">কোতওয়ালি</string>
+    <string name="pahartali_thana_chittagong">পাহারতলী</string>
+    <string name="panchlaish_thana_chittagong">পাঞ্ছালাইশ</string>
+    <string name="barua_thana_comilla">বড়ুয়া</string>
+    <string name="brahmanpara_thana_comilla">ব্রাহ্মানপাড়া</string>
+    <string name="burichang_thana_comilla">বুরিচং</string>
+    <string name="chandina_thana_comilla">চান্দিনা</string>
+    <string name="chauddagram_thana_comilla">চোদ্দগ্রাম</string>
+    <string name="daudkandi_thana_comilla">দাউদকান্দী</string>
+    <string name="debidwar_thana_comilla">দেবিদ্বার</string>
+    <string name="homna_thana_comilla">হোমনা</string>
+    <string name="laksam_thana_comilla">লাকসাম</string>
+    <string name="muradnagar_thana_comilla">মুরাদনগর</string>
+    <string name="nangalkot_thana_comilla">নাঙলকোট</string>
+    <string name="adarsha_thana_comilla">আদর্শ </string>
+    <string name="meghna_thana_comilla">মেঘনা</string>
+    <string name="titas_thana_comilla">তিতাস</string>
+    <string name="monohorganj_thana_comilla">মনহরগঞ্জ</string>
+    <string name="sadar_dakshin_thana_comilla">সদর দক্ষিণ</string>
+    <string name="chakaria_thana_coxsbazar">চকোরিয়া</string>
+    <string name="kutubdia_thana_coxsbazar">কুতুবদিয়া</string>
+    <string name="maheshkhali_thana_coxsbazar">মহেশখালী</string>
+    <string name="ramu_thana_coxsbazar">রামু</string>
+    <string name="teknaf_thana_coxsbazar">টেকনাফ</string>
+    <string name="ukhia_thana_coxsbazar">উখিয়া</string>
+    <string name="pekua_thana_coxsbazar">পেকুয়া</string>
+    <string name="chhagalnaiya_thana_feni">ছাগলনাইয়া</string>
+    <string name="daganbhuiyan_thana_feni">দাগনভুইয়া</string>
+    <string name="sadar_thana_feni"></string>
+    <string name="parshuram_thana_feni">পরশুরাম</string>
+    <string name="sonagazi_thana_feni">সোনাগাজী</string>
+    <string name="fulgazi_thana_feni">ফুলগাজী</string>
+    <string name="dighinala_thana_khagrachhari">দীঘিনালা</string>
+    <string name="sadar_thana_khagrachhari"></string>
+    <string name="laksmichhari_thana_khagrachhari">লক্ষিছড়া</string>
+    <string name="mahalchhari_thana_khagrachhari">মহলছড়ী</string>
+    <string name="manikchhari_thana_khagrachhari">মানিকছড়ী</string>
+    <string name="matiranga_thana_khagrachhari">মাটিরাঙ্গা</string>
+    <string name="panchhari_thana_khagrachhari">পঞ্ছছড়ী</string>
+    <string name="ramgarh_thana_khagrachhari">রামগড়</string>
+    <string name="sadar_thana_lakshmipur"></string>
+    <string name="rajpur_thana_lakshmipur">রাজপুর</string>
+    <string name="ramganj_thana_lakshmipur">রামগঞ্জ</string>
+    <string name="ramgati_thana_lakshmipur">রামগতি</string>
+    <string name="kamalnagar_thana_lakshmipur">কামালনগর</string>
+    <string name="begumganj_thana_noakhali">বেগমগঞ্জ</string>
+    <string name="sadar_thana_noakhali"></string>
+    <string name="chatkhali_thana_noakhali">চাটখালি</string>
+    <string name="comaniganj_thana_noakhali">কোম্পানীগঞ্জ</string>
+    <string name="hatiya_thana_noakhali">হাতিয়া</string>
+    <string name="senbagh_thana_noakhali">সেনবাগ</string>
+    <string name="sonaimuri_thana_noakhali">সনাইমুরি</string>
+    <string name="subarnachar_thana_noakhali">সুবর্ণচর</string>
+    <string name="kabirhat_thana_noakhali">কবিরহাট</string>
+    <string name="bagaichari_thana_rangamati">বাঘাইছরি</string>
+    <string name="barkal_thana_rangamati">বরকল</string>
+    <string name="kawkhali_thana_rangamati">কাওখালি</string>
+    <string name="belaichhari_thana_rangamati">বেলাইছরী</string>
+    <string name="kaptai_thana_rangamati">কাপ্তাই</string>
+    <string name="juraichhari_thana_rangamati">জুরাইছরি</string>
+    <string name="langadu_thana_rangamati">লাঙ্গাদু</string>
+    <string name="naniyachar_thana_rangamati">নানিয়ারচর</string>
+    <string name="rajasthali_thana_rangamati">রাজস্থালি</string>
+    <string name="sadar_thana_rangamati"></string>
+    <string name="dhamrai_thana_dhaka">ধামরাই</string>
+    <string name="dohar_thana_dhaka">দোহার</string>
+    <string name="keraniganj_thana_dhaka">কেরানীগঞ্জ</string>
+    <string name="nawabganj_thana_dhaka">নওয়াবগঞ্জ</string>
+    <string name="savar_thana_dhaka">সাভার</string>
+    <string name="alfadanga_thana_faridpur">আলফাডাঙ্গা</string>
+    <string name="bhanga_thana_faridpur">ভাঙা</string>
+    <string name="boalmari_thana_faridpur">বোয়ালমারী</string>
+    <string name="charbhadrasan_thana_faridpur">চর ভাদ্রাসান</string>
+    <string name="sadar_thana_faridpur"></string>
+    <string name="madhukhali_thana_faridpur">মধুখালী</string>
+    <string name="naggarkanda_thana_faridpur">নগরকান্দা</string>
+    <string name="sadarpur_thana_faridpur">সদরপুর</string>
+    <string name="saltha_thana_faridpur">সালথা</string>
+    <string name="sadar_thana_gazipur"></string>
+    <string name="kaliakair_thana_gazipur">কালিয়াকৈর</string>
+    <string name="kaliganj_thana_gazipur">কালীগঞ্জ</string>
+    <string name="kaasia_thana_gazipur">কাশিয়া</string>
+    <string name="sreepur_thana_gazipur">শ্রীপুর</string>
+    <string name="sadar_thana_gopalanj"></string>
+    <string name="kashiani_thana_gopalanj">কাশিয়ানী</string>
+    <string name="kotalipara_thana_gopalanj">কোটালিপাড়া</string>
+    <string name="muksudpur_thana_gopalanj">মকসুদপুর</string>
+    <string name="tungipara_thana_gopalanj">টুঙ্গীপাড়া</string>
+    
+    <string name="baksiganj_thana_jamalpur">বকশীগঞ্জ</string>
+    <string name="dewanganj_thana_jamalpur">দেওয়ানগঞ্জ</string>
+    <string name="islampur_thana_jamalpur">ইসলামপুর</string>
+    <string name="sadar_thana_jamalpur"></string>
+    <string name="madarganj_thana_jamalpur">মাদারগঞ্জ</string>
+     <string name="melandaha_thana_jamalpur">মেলান্দাহ</string>
+    <string name="sarishabari_thana_jamalpur">সরিষাবাড়ি</string>
+    <string name="astagram_thana_kishoreganj">অষ্টগ্রাম</string>
+    <string name="bajitpur_thana_kishoreganj">বাজিতপুর</string>
+    <string name="bhairab_thana_kishoreganj">ভৈরব</string>
+    <string name="hossainpur_thana_kishoreganj">হোসেনপুর</string>
+    <string name="itna_thana_kishoreganj">ইটনা</string>
+    <string name="karimganj_thana_kishoreganj">করিমগঞ্জ</string>
+    <string name="katiadi_thana_kishoreganj">কাটিয়াদী</string>
+    <string name="sadar_thana_kishoreganj"></string>
+    <string name="kuliarchar_thana_kishoreganj">কুলিয়ারচর</string>
+    <string name="mithamain_thana_kishoreganj">মিঠামাইন</string>
+    <string name="nikli_thana_kishoreganj">নিকলই</string>
+    <string name="pakundia_thana_kishoreganj">পাকুন্দিয়া</string>
+    <string name="tarail_thana_kishoreganj">তাড়াইল</string>
+    <string name="rajoir_thana_madaripur">রাজইর</string>
+    <string name="sadar_thana_madaripur"></string>
+    <string name="kalkini_thana_madaripur">কালকিনি</string>
+    <string name="shibchar_thana_madaripur">শিবচর</string>
+    <string name="daulatpur_thana_manikganj">দউলতপুর</string>
+    <string name="ghior_thana_manikganj">ঘিওর</string>
+    <string name="harirampur_thana_manikganj">হরিরামপুর</string>
+    <string name="sadar_thana_manikganj"></string>
+    <string name="saturai_thana_manikganj">সাটুরিয়া</string>
+    <string name="shivalaya_thana_manikganj">শিভালয়া</string>
+    <string name="singair_thana_manikganj">সিঙ্গাইর</string>
+    <string name="gazaria_thana_munshiganj">গজারিয়া</string>
+    <string name="lohajang_thana_munshiganj">লউহাজং</string>
+    <string name="sadar_thana_munshiganj"></string>
+    <string name="sirajdikhan_thana_munshiganj">সিরাজদিখান</string>
+    <string name="sreenagar_thana_munshiganj">শ্রীনগর</string>
+    <string name="tongibari_thana_munshiganj">টঙ্গিবাড়ী</string>
+    <string name="bhalkua_thana_mymensingh">ভালুকা</string>
+    <string name="dhobaura_thana_mymensingh">ধবাউরা</string>
+    <string name="fulbaria_thana_mymensingh">ফুলবাড়িয়া</string>
+    <string name="gaffargaon_thana_mymensingh">গফরগা</string>
+    <string name="gauripur_thana_mymensingh">গৌরীপুর</string>
+    <string name="haluaghat_thana_mymensingh">হালুয়াঘাট</string>
+    <string name="ishwarganj_thana_mymensingh">ঈশ্বরগঞ্জ</string>
+    <string name="sadar_thana_mymensingh"></string>
+    <string name="muktagachha_thana_mymensingh">মুক্তাগাছা</string>
+    <string name="nandail_thana_mymensingh">নান্দাইল</string>
+    <string name="phulpur_thana_mymensingh">ফুলপুর</string>
+    <string name="trisal_thana_mymensingh">ত্রিশাল</string>
+    <string name="tara_kanda_thana_mymensingh">তারাকান্দা</string>
+    <string name="araihazar_thana_narayanganj">আড়াইহাজার</string>
+    <string name="bandar_thana_narayanganj">বন্দর</string>
+    <string name="sadar_thana_narayanganj"></string>
+    <string name="rupganj_thana_narayanganj">রূপগঞ্জ</string>
+    <string name="sonargaon_thana_narayanganj">সোনারগাঁ</string>
+    <string name="atpara_thana_netrokona">আটপাড়া</string>
+    <string name="barhtta_thana_netrokona">বারহট্টা</string>
+    <string name="durgapur_thana_netrokona">দুরগাপুর</string>
+    <string name="khaliajuri_thana_netrokona">কালিয়াঝুরি</string>
+    <string name="kalmakanda_thana_netrokona">কলমাকান্দা</string>
+    <string name="kendua_thana_netrokona">কেন্দুয়া</string>
+    <string name="madan_thana_netrokona">মদন</string>
+    <string name="mohanganj_thana_netrokona">মোহনগঞ্জ</string>
+    <string name="sadar_thana_netrokona"></string>
+    <string name="purbadhala_thana_netrokona">পূর্বধলা</string>
+    <string name="baliakandi_thana_rajbari">বালিয়াকান্দি</string>
+    <string name="goalandaghat_thana_rajbari">গয়ালন্দঘাট</string>
+    <string name="pangsha_thana_rajbari">পাংশা</string>
+    <string name="sadar_thana_rajbari"></string>
+    <string name="kalukhali_thana_rajbari">কালুখালী</string>
+    <string name="bhedarganj_thana_shariatpur">বেদেরগঞ্জ</string>
+    <string name="damudya_thana_shariatpur">দামুদিয়া</string>
+    <string name="gosaihat_thana_shariatpur">গোসাইঘাট</string>
+    <string name="naria_thana_shariatpur">নাড়িয়া</string>
+    <string name="sadar_thana_shariatpur"></string>
+    <string name="zanjira_thana_shariatpur">জিঞ্জিরা</string>
+    <string name="shakhipur_thana_shariatpur">শাখিপুর</string>
+    <string name="jhenaigati_thana_sherpur">ঝেনাইগাতি</string>
+    <string name="nakla_thana_sherpur">নাকলা</string>
+    <string name="nalitabari_thana_sherpur">নালিতাবাড়ি</string>
+    <string name="sadar_thana_sherpur"></string>
+    <string name="sreebardi_thana_sherpur">শ্রীবরদী</string>
+    
+    <string name="gopalpur_thana_tangail">গোপালপুর</string>
+    <string name="basail_thana_tangail">বাসাইল</string>
+    <string name="bhuapur_thana_tangail">ভুয়াপুর</string>
+    <string name="delduar_thana_tangail">দেলদুয়ার</string>
+    <string name="ghatail_thana_tangail">ঘাঁটাইল</string>
+    <string name="kalihati_thana_tangail">কালিহাটী</string>
+    <string name="madhupur_thana_tangail">মধুপুর</string>
+    <string name="mirzapur_thana_tangail">মির্জাপুর</string>
+    <string name="nagarpur_thana_tangail">নগরপুর</string>
+    <string name="sakhipur_thana_tangail">সাখিপুর</string>
+    <string name="dhanbari_thana_tangail">ধানবাড়ি</string>
+    <string name="sadar_thana_tangail"></string>
+    
+    <string name="sadar_thana_narsingdi"></string>
+    <string name="belabo_thana_narsingdi">বেলাবো</string>
+    <string name="monohardi_thana_narsingdi">মনহরদী</string>
+    <string name="palash_thana_narsingdi">পলাশ</string>
+    <string name="raipur_thana_narsingdi">রাইপুর</string>
+    <string name="shibpur_thana_narsingdi">শিবপুর</string>
+    
+    <string name="sadar_thana_bagerhat"></string>
+    <string name="chitalmari_thana_bagerhat">চিতলমারী</string>
+    <string name="fakirhat_thana_bagerhat">ফকিরহাট</string>
+    <string name="kachua_thana_bagerhat">কাচুয়া</string>
+    <string name="mollahat_thana_bagerhat">মোল্লাহাট</string>
+    <string name="mongla_thana_bagerhat">মংলা</string>
+    <string name="morrelganj_thana_bagerhat">মোরলগঞ্জ</string>
+    <string name="rampal_thana_bagerhat">রামপাল</string>
+    <string name="sarankhola_thana_bagerhat">শরণখোলা</string>
+    
+    <string name="alamdanga_thana_chuadanga">আলমডাঙ্গা</string>
+    <string name="sadar_thana_chuadanga"></string>
+    <string name="damurhuda_thana_chuadanga">দাম্রুহুদা</string>
+    <string name="jibannagar_thana_chuadanga">জীবননগর</string>
+    
+    <string name="abhaynagar_thana_jessore">অভয়নগর</string>
+    <string name="bagherpara_thana_jessore">বাঘেরপাড়া</string>
+    <string name="chaugachha_thana_jessore">চৌগাছা</string>
+    <string name="jhikargachha_thana_jessore">জিকরগাছা</string>
+    <string name="keshabpur_thana_jessore">কেশবপুর</string>
+    <string name="sadar_thana_jessore"></string>
+    <string name="manirampur_thana_jessore">মনিরামপুর</string>
+    <string name="sharsha_thana_jessore">সরসা</string>
+    
+    <string name="harinakunda_thana_jhenaida">হারিনাকুন্ড</string>
+    <string name="sadar_thana_jhenaida"></string>
+    <string name="kaliganj_thana_jhenaida">কালীগঞ্জ</string>
+    <string name="kotchandpur_thana_jhenaida">কোটচাঁদপুর</string>
+    <string name="maheshpur_thana_jhenaida">মহেশপুর</string>
+    <string name="shailkupa_thana_jhenaida">শৈলকূপা</string>
+    
+    <string name="batiaghata_thana_khulna">বাঠিয়াঘাটা</string>
+    <string name="dacope_thana_khulna">দাকোপ</string>
+    <string name="dumuria_thana_khulna">ডুমুরিয়া</string>
+    <string name="dighalia_thana_khulna">দীঘলীয়া</string>
+    <string name="koyra_thana_khulna">কয়রা</string>
+    <string name="paikgaccha_thana_khulna">পাইকগাছা</string>
+    <string name="phultala_thana_khulna">ফুলতালা</string>
+    <string name="rupsha_thana_khulna">রূপসা</string>
+    <string name="terokhada_thana_khulna">তেরখাদা</string>
+    <string name="daulatpur_thana_khulna">দউলতপুর</string>
+    <string name="khalishpur_thana_khulna">খালিশপুর</string>
+    <string name="khan_jahan_ali_thana_khulna">খান জাহান আলী</string>
+    <string name="kotwali_thana_khulna">কোতওয়ালই</string>
+    <string name="sonadanga_thana_khulna">সোনাডাঙ্গা</string>
+    <string name="harintana_thana_khulna">হরিনটানা</string>
+    
+    <string name="bheramara_thana_kusthia">ভেরামারা</string>
+    <string name="daulatpur_thana_kustia">দউলতপুর</string>
+    <string name="khoksa_thana_kustia">খোকসা</string>
+    <string name="kumarkhali_thana_kustia">কুমারখালী</string>
+    <string name="sadar_thana_kustia"></string>
+    <string name="mirpur_thana_kustia">মিরপুর</string>
+    <string name="shekhpara_thana_kustia">শেখপাড়া</string>
+    
+    <string name="sadar_thana_magura"></string>
+    <string name="mohammadpur_thana_magura">মহাম্মাদপুর</string>
+    <string name="shalikha_thana_magura">শালিখা</string>
+    <string name="sreepur_thana_magura">শ্রীপুর</string>
+    
+    <string name="gangni_thana_meherpur">গাংনী</string>
+    <string name="sadar_thana_meherpur"></string>
+    <string name="mujibnagar_thana_meherpur">মুজিবনগর</string>
+    
+    <string name="kalia_thana_narail">কালিয়া</string>
+    <string name="lohagara_thana_narail">লোহাগড়া</string>
+    <string name="sadaar_thana_narail"></string>
+    <string name="naragati_thana_narail">নারাগতি</string>
+    
+    <string name="assasuni_thana_satkhira">আসাসুনি</string>
+    <string name="debhata_thana_satkhira">দেভাটা</string>
+    <string name="kalaroa_thana_satkhira">কলারোয়া</string>
+    <string name="kaliganj_thana_satkhira">কালীগঞ্জ</string>
+    <string name="sadar_thana_satkhira"></string>
+    <string name="shyamnagar_thana_satkhira">শ্যামনগর</string>
+    <string name="tala_thana_satkhira">তালা</string>
+    
+    <string name="ajmiriganj_thana_habiganj">আজমিরগঞ্জ</string>
+    <string name="bahubal_thana_habiganj">বাহুবল</string>
+    <string name="baniyachong_thana_habiganj">বানিয়াচং</string>
+    <string name="chunarughat_thana_habiganj">চুনারুঘাট</string>
+    <string name="sadar_thana_habiganj"></string>
+    <string name="lakhi_thana_habiganj">লাখই</string>
+    <string name="madhabpur_thana_habiganj">মাধবপুর</string>
+    <string name="nabiganj_thana_habiganj">নাবিগঞ্জ</string>
+    
+    <string name="barlekha_thana_mouluvibazar">বড়লেখা</string>
+    <string name="kamalganj_thana_mouluvibazar">কামালগঞ্জ</string>
+    <string name="kulaura_thana_mouluvibazar">কুলাউড়া</string>
+    <string name="sadar_thana_mouluvibazar"></string>
+    <string name="rajnagar_thana_mouluvibazar">রাজনগর</string>
+    <string name="sreemangal_thana_mouluvibazar">শ্রীমঙ্গল</string>
+    <string name="juri_thana_mouluvibazar">জুরী</string>
+    
+    <string name="bishwamvarpur_thana_sunamganj">বিশ্বাম্বপুর</string>
+    <string name="chhatak_thana_sunamganj">ছাতাক</string>
+    <string name="derai_thana_sunamganj">দেরাই</string>
+    <string name="dharmapasha_thana_sunamganj">ধর্মপাশা</string>
+    <string name="dowarabazar_thana_sunamganj">দোয়ারবাজার</string>
+    <string name="jagannathpur_thana_sunamganj">জাগান্নাথপুর</string>
+    <string name="jamalganj_thana_sunamganj">জআমালগঞ্জ</string>
+    <string name="sullah_thana_sunamganj">সুল্লাহ</string>
+    <string name="sadar_thana_sunamganj"></string>
+    <string name="tahirpur_thana_sunamganj">তাহিরপুর</string>
+    <string name="south_sunamanj_thana_sunamganj">সাউথ সুনামগঞ্জ</string>
+    
+    <string name="balaganj_thana_sylhet">বালাগঞ্জ</string>
+    <string name="beanibazar_thana_sylhet">বেয়ানিবাজার</string>
+    <string name="bishwanath_thana_sylhet">বিশ্বনাথ</string>
+    <string name="campaniganj_thana_sylhet">কোম্পানীগঞ্জ</string>
+    <string name="fenchuganj_thana_sylhet">ফেঞ্ছুগঞ্জ</string>
+    <string name="gopalganj_thana_sylhet">গোপালগঞ্জ</string>
+    <string name="gowainghat_thana_sylhet">গোয়াইনঘাট</string>
+    <string name="jaintapur_thana_sylhet">জৈন্তাপুর</string>
+    <string name="kanaighat_thana_sylhet">কানাইঘাট </string>
+    <string name="sadar_thana_sylhet"></string>
+    <string name="zakiganj_thana_sylhet">জাকিগঞ্জ</string>
+    <string name="south_shurma_thana_sylhet">সাউথ সুরমা </string>
+
+    <!-- All Thana Name In Bangla Ends Here -->
+
+
+    <!-- Button With number -->
+    <string name="deauty_officer">ডিউটি  অফিসার(Deauty Officer)</string>
+    <string name="oc_thana">ও সি(O.C)</string>
+    <string name="si_thana">এস আই(S.I)</string>
+    <string name="rab_on_deauty">র‌্যাব(RAB)</string>
+    <string name="mp_of_the_area">এম পি(M.P)</string>
+    <string name="ambulance_number">অ্যাম্বুলেঞ্চ(Ambulance)</string>
+    <string name="fire_service">ফায়ার সার্ভিস(Fire Service)</string>
+    <string name="govt_hospital">সরকারি হাসপাতাল(Govt.Hospital) </string>
+
+</resources>

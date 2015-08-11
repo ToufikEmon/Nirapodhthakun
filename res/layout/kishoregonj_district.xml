@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sholakia_kishoreganj" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnMithamainThanaKishoreganj"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/mithamain_thana_kishoreganj"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnNikliThanaKishoreganj"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/nikli_thana_kishoreganj"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnPakundiThanaKishoreganj"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/pakundia_thana_kishoreganj"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnTarailThanaKishoreganj"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/tarail_thana_kishoreganj"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnItnaThanaKishoreganj"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/itna_thana_kishoreganj"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnKarimganjThanaKishoreganj"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/karimganj_thana_kishoreganj"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnKataiadiThanaKishoreganj"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/katiadi_thana_kishoreganj"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSadarThanaKishoreganj"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/sadar_thana"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnKuliarcharThanaKishoreganj"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/kuliarchar_thana_kishoreganj"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnAstagramThanaKishoreganj"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/astagram_thana_kishoreganj"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBajitpurThanaKishoreganj"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/bajitpur_thana_kishoreganj"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBhairabThanaKishoreganj"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/bhairab_thana_kishoreganj"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnHossainpurThanaKishoreganj"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/hossainpur_thana_kishoreganj"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

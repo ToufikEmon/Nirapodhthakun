@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gutiamosque" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnGaurnadiThana"
+            style="@style/ButtonText"
+            android:layout_width="120sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/borisal_rounded_corners_button"
+            android:text="@string/gournodi_thana_barisal_district"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnHizlaThana"
+            style="@style/ButtonText"
+            android:layout_width="120sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/borisal_rounded_corners_button"
+            android:text="@string/hizla_thana_barisal_district"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnMehendiganjThana"
+            style="@style/ButtonText"
+            android:layout_width="120sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/borisal_rounded_corners_button"
+            android:text="@string/mehendiganj_thana_barisal_district"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnMuladiThana"
+            style="@style/ButtonText"
+            android:layout_width="120sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/borisal_rounded_corners_button"
+            android:text="@string/muladi_thana_barisal_district"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnWazirpurThana"
+            style="@style/ButtonText"
+            android:layout_width="120sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/borisal_rounded_corners_button"
+            android:text="@string/wazirpur_thana_barisal_district"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnBarisalSadarThana"
+            style="@style/ButtonText"
+            android:layout_width="120sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/borisal_rounded_corners_button"
+            android:text="@string/sadar_thana_barisal_district"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnAgailjharaThana"
+            style="@style/ButtonText"
+            android:layout_width="120sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/borisal_rounded_corners_button"
+            android:text="@string/agailjhara_thana_barisal_district"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBabuganjThana"
+            style="@style/ButtonText"
+            android:layout_width="120sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/borisal_rounded_corners_button"
+            android:text="@string/babuganj_thana_barisal_district"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBakerganjThana"
+            style="@style/ButtonText"
+            android:layout_width="120sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/borisal_rounded_corners_button"
+            android:text="@string/bakerganj_thana_barisal_district"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBanariparaThana"
+            style="@style/ButtonText"
+            android:layout_width="120sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/borisal_rounded_corners_button"
+            android:text="@string/banipara_thana_barisal_district"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

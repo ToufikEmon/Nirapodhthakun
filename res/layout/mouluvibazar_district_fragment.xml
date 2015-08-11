@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/moulovibazarr_ham_ham" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnSadarThanaMouluvibazar"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/sadar_thana"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnRajanagarThanaMouluvibazar"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/rajnagar_thana_mouluvibazar"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnKuluraThanaMouluvibazar"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/kulaura_thana_mouluvibazar"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnKamalganjThanaMouluvibazar"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/kamalganj_thana_mouluvibazar"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSreemangalThanaMouluvibazar"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/sreemangal_thana_mouluvibazar"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnBarlekhaThanaMouluvibazar"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/barlekha_thana_mouluvibazar"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnJuriThanaMouluvibazar"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/juri_thana_mouluvibazar"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

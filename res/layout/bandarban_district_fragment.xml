@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bandarban_district" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnLamaThanaBandarban"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/lama_thana_bandarban"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnNaikongchhariThanabandarban"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/naikhongchhari_thana_bandarban"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnAlikadamThanaBandarban"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/ali_kadam_thana_bandarban"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBandarbanSadarThana"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/sadar_thana"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnThanchiThanaBandarban"
+        style="@style/ButtonText"
+        android:layout_width="80sp"
+        android:layout_height="60sp"
+        android:layout_alignLeft="@+id/linearLayout3"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/chittagong_rounded_corner_button_design"
+        android:text="@string/thanchi_thana_bandarban"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnRownagchhariThanaBandarban"
+        style="@style/ButtonText"
+        android:layout_width="80sp"
+        android:layout_height="60sp"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/chittagong_rounded_corner_button_design"
+        android:text="@string/rowangchhari_thana_bandarban"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnRumaThanaBandarban"
+        style="@style/ButtonText"
+        android:layout_width="80sp"
+        android:layout_height="60sp"
+        android:layout_alignLeft="@+id/linearLayout2"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/chittagong_rounded_corner_button_design"
+        android:text="@string/ruma_thana_bandarban"
+        android:textSize="12sp" />
+
+</RelativeLayout>

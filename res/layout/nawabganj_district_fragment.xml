@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/nawabganj_coto_sona_mosque" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnShibganjThanaChapaiNawabganj"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/shibganj_thana_nawabganj"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSadarThanaChapaiNawabganj"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/sadar_thana"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnNacholeThanaChapaiNawabganj"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/nachole_thana_nawabganj"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnBholahatThanaChapaiNawabganj"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/bholahat_thana_nawabganj"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnGomastapurThanaChapaiNawabganj"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/gomastaur_thana_nawabganj"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

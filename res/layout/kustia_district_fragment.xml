@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/lalonsha_mazar_kustia" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnShekhparaThanaKustia"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/khulna_rounded_corner_button"
+            android:text="@string/shekhpara_thana_kustia"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnMirpurThanaKustia"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/khulna_rounded_corner_button"
+            android:text="@string/mirpur_thana_kustia"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnSadarThanaKustia"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/khulna_rounded_corner_button"
+            android:text="@string/sadar_thana"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBheramaraThanaKustia"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/khulna_rounded_corner_button"
+            android:text="@string/bheramara_thana_kusthia"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnKumarkhaliThanaKustia"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/khulna_rounded_corner_button"
+            android:text="@string/kumarkhali_thana_kustia"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnDaulatpurThanaKustia"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/khulna_rounded_corner_button"
+            android:text="@string/daulatpur_thana_kustia"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnKhoksaThanaKustia"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/khulna_rounded_corner_button"
+            android:text="@string/khoksa_thana_kustia"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

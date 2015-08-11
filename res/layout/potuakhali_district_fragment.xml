@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/potuakhali_kuakata" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnRangabaliThanaPatuakhali"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/borisal_rounded_corners_button"
+            android:text="@string/potuakhali_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSadarThanaPatuakhali"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/borisal_rounded_corners_button"
+            android:text="@string/pirojpur_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnMirzaganjThanaPatuakhali"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/borisal_rounded_corners_button"
+            android:text="@string/pirojpur_district_name_in_bangla"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnKalaparaThanaPatuakhali"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/borisal_rounded_corners_button"
+            android:text="@string/vhola_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnGalachipaThanaPatuakhali"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/borisal_rounded_corners_button"
+            android:text="@string/jhalokhati_district_name_in_bangla"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnBauphalThanaPatuakhali"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/borisal_rounded_corners_button"
+            android:text="@string/borisal_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnDashminaThanaPatuakhali"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/borisal_rounded_corners_button"
+            android:text="@string/borguna_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnDumkiThanaPatuakhali"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/borisal_rounded_corners_button"
+            android:text="@string/borisal_district_name_in_bangla"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

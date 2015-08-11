@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/nilphamary_cini_mosque" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnSaidpurThanaNilphamari"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/saidpur_thana_nilphamari"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSadarThanaNilphamri"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/sadar_thana"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnKishoreganjThanaNilphamari"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/kishoreganj_thana_nilphamari"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnJalkandaThanaNilphamari"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/jalkanda_thana_nilphamari"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnDimlaThanaNilphamari"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/dimla_thana_nilphamari"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnDomarThanaNilphamari"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/domar_thana_nilphamari"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/kurigram_photo" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnSughattaThanaGaibandha"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/sughatta_thana_gaibandha"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSundarganjThanaGaibandha"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/sundarganj_thana_gaibandha"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnPhulchariThanaGaibandha"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/phulchari_thana_gaibandha"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSadullapurThanaGaibandha"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/sadullapur_thana_gaibandha"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnPalashbariThanaGaibandha"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/palashbari_thana_gaibandha"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnSadarThanaGaibandha"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/sadar_thana"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnGobindoganjThanaGaibandha"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/gobindaganj_thana_gaibandha"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

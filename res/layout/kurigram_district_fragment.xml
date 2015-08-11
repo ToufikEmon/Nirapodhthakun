@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/kurigram_photo" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnRajarhatThanaKurigram"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/rajarhat_thana_kurigram"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnRaomariThanaKurigram"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/raomari_thana_kurigram"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnUlipurThanaKurigram"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/ulipur_thana_kurigram"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnSadarThanaKurigram"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/sadar_thana"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnNageshwariThanaKurigram"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/nadeshwari_thana_kurigram"
+            android:textSize="12sp" />
+        <Button
+            android:id="@+id/btnPhulbariThanaKurigram"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/phulbari_thana_kurigram"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnBhurungamariThanaKurigram"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/bhurunamari_thana_kurigram"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnCharRajibpurThanaKurigram"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/char_rajibpur_thana_kurigram"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnChilmariThanaKurigram"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/chilmari_thana_kurigram"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

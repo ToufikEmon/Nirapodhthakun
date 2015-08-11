@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/nijhum_dip_noakhali_main" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnSubarnacharThanaNoakhali"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/subarnachar_thana_noakhali"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSonaimuriThanaNoakhali"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/sonaimuri_thana_noakhali"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSenbaghThanaNoakhali"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/senbagh_thana_noakhali"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnHatiaThanaNoakhali"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/hatiya_thana_noakhali"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSadarThanaNoakhali"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/sadar_thana"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnBegumganjThanaNoakhali"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/begumganj_thana_noakhali"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnChatkhilThanaNoakhali"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/chatkhali_thana_noakhali"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnCompaniganjThanaNoakhali"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/comaniganj_thana_noakhali"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

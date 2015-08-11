@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/netrokona_birisiri" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnPurbadhalaThanaNetrokona"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/purbadhala_thana_netrokona"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSadarThanaNetrokona"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/sadar_thana"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnMohanganjThanaNetrokona"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/mohanganj_thana_netrokona"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnMadanThanaNetrokona"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/madan_thana_netrokona"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnKhaliajuriThanaNetrokona"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/khaliajuri_thana_netrokona"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnKenduaThanaNetrokona"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/kendua_thana_netrokona"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnKalmakandaThanaNetrokona"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/kalmakanda_thana_netrokona"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnAtparaThanaNetrokona"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/atpara_thana_netrokona"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBarhattaThanaNetrokona"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/barhtta_thana_netrokona"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnDurgapurThanaNetrokon"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/durgapur_thana_netrokona"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

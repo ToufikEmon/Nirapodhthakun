@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/rajshahhi_putia" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnPabnThanaRajshahi"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/paba_thana_rajshahi"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnPuthiaThanaRajshahi"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/puthia_thana_rajshahi"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnRajparaThanaRajshahi"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/rajpara_thana_rajshahi"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnShahmakdumThanaRajshahi"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/shah_makdum_thana_rajshahi"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnDurgapurThanaRajshahi"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/durgapur_thana_rajshahi"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnGodagariThanaRajshahi"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/godagari_thana_rajshahi"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnMatiharThanaRajshahi"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/matihar_thana_rajshahi"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnMohanpurThanaRajshahi"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/mohanpur_thana_rajshahi"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnBaghaThanaRajshahi"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/bagha_thana_rajshahi"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBagmaraThanaRajshahi"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/bagmara_thana_rajshahi"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBoaliaThanaRajshahi"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/boalia_thana_rajshahi"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnCharghatThanaRajshahi"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/charghat_thana_rajshahi"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

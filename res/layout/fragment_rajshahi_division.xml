@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/rajshahiback">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnNatoreDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/natore_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnRajshahiDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/rajshahi_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSiragonjDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/sirajgonj_district_name_in_bangla"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnPabnaDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/pabna_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnNoagaDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/naogaon_district_name_in_bangla"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnBograDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/bogra_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnChapainababganjDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/chapainawabganj_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnJoypurhatDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/joypurhat_district_name_in_bangla"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

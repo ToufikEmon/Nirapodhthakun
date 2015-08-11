@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/hobiganj_tea_garden" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnLakhaiThanaHabiganj"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/lakhi_thana_habiganj"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnMadhabpurThanaHabiganj"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/madhabpur_thana_habiganj"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnNabiganjThanaHabiganj"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/nabiganj_thana_habiganj"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnChunarughatThanaHabiganj"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/chunarughat_thana_habiganj"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSadarThanaHabiganj"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/sadar_thana"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnAjmirganjThanaHabiganj"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/ajmiriganj_thana_habiganj"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBahubalThanaHabiganj"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/bahubal_thana_habiganj"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBaniyachongThanaHabiganj"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/baniyachong_thana_habiganj"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

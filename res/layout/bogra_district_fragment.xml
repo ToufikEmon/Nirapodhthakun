@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bogra_district" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnShajahanpurThanaBora"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/shajhanpur_thana_bogra"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSherpurThanaBogra"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/sherpur_thana_bogra"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnShibganjThanaBogra"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/shibganj_thana_bogra"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSontolaThanaBogra"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/sonatola_thana_bogra"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnGabtoliThanabogra"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/gabtali_thana_bogra"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnKahalooThanaBogra"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/kahaloo_thana_bogra"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnNandigramThanaBogra"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/nandigram_thana_bogra"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSariakandiThanaBogra"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/sariakandi_thana_bogra"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnAdamdighiThanaBogra"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/adamdighi_thana_bogra"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBograSadarThanaBogra"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/sadar_thana"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnDhunatThanaBogra"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/dhunat_thana_bogra"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnDhupchanchiaThanaBogra"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/dhupchanchia_thana_bogra"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

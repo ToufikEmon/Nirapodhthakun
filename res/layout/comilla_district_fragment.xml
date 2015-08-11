@@ -1,0 +1,195 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/comilla_war_symmetry" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnHomnaThanaComilla"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/homna_thana_comilla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnLaksamThanaComilla"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/laksam_thana_comilla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnMghnaThanaComilla"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/meghna_thana_comilla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnMonoharganjThanaComilla"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/monohorganj_thana_comilla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnMuradnagarThanaComilla"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/muradnagar_thana_comilla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnNangalkotThanaComilla"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/nangalkot_thana_comilla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnTitasThanaComilla"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/titas_thana_comilla"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnDaudkandiThanaComilla"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/daudkandi_thana_comilla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnDebidwarThanaComilla"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/debidwar_thana_comilla"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnBaruaThanaComilla"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/barua_thana_comilla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBrahamanparaThanaComilla"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/brahmanpara_thana_comilla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBuriachangThanaComilla"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/burichang_thana_comilla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnChandinaThanaComilla"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/chandina_thana_comilla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnChauddagramThanaComilla"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/chauddagram_thana_comilla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnAdarshaThanaComilla"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/adarsha_thana_comilla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSadarDaskinThanaComilla"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/sadar_dakshin_thana_comilla"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

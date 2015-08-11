@@ -1,0 +1,148 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tangail_zamidar_bari" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnNagarpurThanaTangail"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/nagarpur_thana_tangail"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSakhipurThanaTangail"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/sakhipur_thana_tangail"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSadarThanaTangail"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/sadar_thana"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnKalihatiThanaTangail"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/kalihati_thana_tangail"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnMadhupurThanaTangail"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/madhupur_thana_tangail"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnMirzapurThanaTangail"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/mirzapur_thana_tangail"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnDhanbarThanaTangail"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/dhanbari_thana_tangail"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnGhatailThanaTangail"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/ghatail_thana_tangail"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnGopalpurThanaTangail"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dhaka_rounded_corner_button_design"
+            android:text="@string/gopalpur_thana_tangail"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBasilThanaTangail"
+        android:layout_width="80sp"
+        android:layout_height="60sp"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/dhaka_rounded_corner_button_design"
+        android:text="@string/basail_thana_tangail"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnDelduarThanaTangail"
+        android:layout_width="80sp"
+        android:layout_height="60sp"
+        android:layout_alignLeft="@+id/linearLayout2"
+        android:layout_alignTop="@+id/btnBasilThanaTangail"
+        android:background="@drawable/dhaka_rounded_corner_button_design"
+        android:text="@string/delduar_thana_tangail"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnBhuapurThanaTangail"
+        android:layout_width="80sp"
+        android:layout_height="60sp"
+        android:layout_alignBaseline="@+id/btnDelduarThanaTangail"
+        android:layout_alignBottom="@+id/btnDelduarThanaTangail"
+        android:layout_alignLeft="@+id/linearLayout3"
+        android:background="@drawable/dhaka_rounded_corner_button_design"
+        android:text="@string/bhuapur_thana_tangail"
+        android:textSize="12sp" />
+
+</RelativeLayout>

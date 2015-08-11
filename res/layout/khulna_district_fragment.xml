@@ -1,0 +1,194 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/khulna_district" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnMeherpurDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/khulna_rounded_corner_button"
+            android:text="@string/meherpur_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnNarailDitrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/khulna_rounded_corner_button"
+            android:text="@string/norail_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnShatkhiraDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/khulna_rounded_corner_button"
+            android:text="@string/shatkhira_district_name_in_bangla"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnJhedinaDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/khulna_rounded_corner_button"
+            android:text="@string/jhenaidah_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnKhulnaDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/khulna_rounded_corner_button"
+            android:text="@string/khulna_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnKustiaDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/khulna_rounded_corner_button"
+            android:text="@string/kustia_district_name_in_bangla"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnBagerhatDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/khulna_rounded_corner_button"
+            android:text="@string/bagerhat_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnChuadangaDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/khulna_rounded_corner_button"
+            android:text="@string/chuadanga_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnJessoreDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/khulna_rounded_corner_button"
+            android:text="@string/jessore_district_name_in_bangla"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBatiaghataThanaKhulna"
+        style="@style/ButtonText"
+        android:layout_width="80sp"
+        android:layout_height="60sp"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/khulna_rounded_corner_button"
+        android:text="@string/batiaghata_thana_khulna"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnDacopeThanaKhulna"
+        style="@style/ButtonText"
+        android:layout_width="80sp"
+        android:layout_height="60sp"
+        android:layout_alignLeft="@+id/linearLayout2"
+        android:layout_alignTop="@+id/btnBatiaghataThanaKhulna"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/khulna_rounded_corner_button"
+        android:text="@string/dacope_thana_khulna"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnDaulatpurThanaKhulna"
+        style="@style/ButtonText"
+        android:layout_width="80sp"
+        android:layout_height="60sp"
+        android:layout_alignLeft="@+id/linearLayout3"
+        android:layout_alignTop="@+id/btnDacopeThanaKhulna"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/khulna_rounded_corner_button"
+        android:text="@string/daulatpur_thana_khulna"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnDumuriaThanaKhulna"
+        style="@style/ButtonText"
+        android:layout_width="80sp"
+        android:layout_height="60sp"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_below="@+id/btnBatiaghataThanaKhulna"
+        android:background="@drawable/khulna_rounded_corner_button"
+        android:text="@string/dumuria_thana_khulna"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnHarintanaThanaKhulna"
+        style="@style/ButtonText"
+        android:layout_width="80sp"
+        android:layout_height="60sp"
+        android:layout_alignLeft="@+id/linearLayout3"
+        android:layout_below="@+id/btnDaulatpurThanaKhulna"
+        android:background="@drawable/khulna_rounded_corner_button"
+        android:text="@string/harintana_thana_khulna"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnDighliaThanaKhulna"
+        style="@style/ButtonText"
+        android:layout_width="80sp"
+        android:layout_height="60sp"
+        android:layout_alignBaseline="@+id/btnHarintanaThanaKhulna"
+        android:layout_alignBottom="@+id/btnHarintanaThanaKhulna"
+        android:layout_alignLeft="@+id/linearLayout2"
+        android:background="@drawable/khulna_rounded_corner_button"
+        android:text="@string/dighalia_thana_khulna"
+        android:textSize="12sp" />
+
+</RelativeLayout>

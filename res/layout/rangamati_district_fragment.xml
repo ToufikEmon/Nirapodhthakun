@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shuvolong_rangamati" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnSadarThanaRangamati"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/sadar_thana"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnRajasthaliThanaRangamati"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/rajasthali_thana_rangamati"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnNaiyacharThanaRangamati"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/naniyachar_thana_rangamati"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnLangaduThanaRangamati"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/langadu_thana_rangamati"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnKawkhaliThanaRangamati"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/kawkhali_thana_rangamati"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnKaptaiThanaRangamati"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/kaptai_thana_rangamati"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnJuraichariThanaRangamati"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/juraichhari_thana_rangamati"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnBagaichhariThanaRangamati"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/bagaichari_thana_rangamati"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBarkalThanaRangamati"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/barkal_thana_rangamati"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBelaichhariThanaRangamati"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/belaichhari_thana_rangamati"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

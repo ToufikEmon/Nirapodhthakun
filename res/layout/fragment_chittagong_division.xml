@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bandarbanresort" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnKhagrachariDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/khagracori_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnLokkhipurDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/lokkhipur_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnNoakhaliDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/noakhali_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnRangamatiDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/rangamati_district_name_in_bangla"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnComillaDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/comilla_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnCoxbazarDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/cox_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnFeniDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/feni_district_name_in_bangla"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnChittagonDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/chittagong_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBandorbanDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/bandarban_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBrammanbariaDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/brammanbaria_district_name_in_bangla"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnChadpurDistrict"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/chittagong_rounded_corner_button_design"
+            android:text="@string/chadpur_district_name_in_bangla"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

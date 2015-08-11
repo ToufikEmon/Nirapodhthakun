@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sylhet_district" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnKanaighatThanaSylhet"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/kanaighat_thana_sylhet"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSouthSurmaThanaSylhet"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/south_shurma_thana_sylhet"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSadarThanaSylhet"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/sadar_thana"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnZakiganjThanaSylhet"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/zakiganj_thana_sylhet"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnFenchuganjThanaSylhet"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/fenchuganj_thana_sylhet"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnGopalganjThanaSylhet"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/gopalganj_thana_sylhet"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnGowainghatThanaSylhet"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/gowainghat_thana_sylhet"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnjaintappurThanaSylhet"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/jaintapur_thana_sylhet"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="90sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnBalaganjThanaSylhet"
+            style="@style/ButtonText"
+            android:layout_width="90sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/balaganj_thana_sylhet"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBeanibazarThanaSylhet"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/beanibazar_thana_sylhet"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBishwanathThanaSylhet"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/bishwanath_thana_sylhet"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnCompaniganjThanaSylhet"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sylhet_rounded_corner_button"
+            android:text="@string/campaniganj_thana_sylhet"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

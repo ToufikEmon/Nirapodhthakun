@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/pabna_hardinge" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnSadarThanaPabna"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/sadar_thana"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSanthiaThanaPabna"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/santhia_thana_pabna"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSujanagarThanaPabna"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/sujanagar_thana_pabna"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnAtaikulaThanaPabna"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/ataikula_thana_pabna"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnChatmoharThanaPabna"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/chatmohar_thana_pabna"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnFaridpurThanaPabna"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/faridpur_thana_pabna"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnIshwardiThanaPabna"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/ishwardi_thana_pabna"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnAtghariaThanaPabna"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/atgharia_thana_pabna"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBeraThanaPabna"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/bera_thana_pabna"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBhanguraThanaPabna"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rajshahi_corner_button_design"
+            android:text="@string/bhangura_thana_pabna"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

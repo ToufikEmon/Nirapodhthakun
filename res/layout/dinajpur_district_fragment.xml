@@ -1,0 +1,165 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/natore_lychee" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnKhansamaThanaDinajpur"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/khansama_thana_dinajpur"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnNawabganjThanaDinajpur"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/nawabganj_thana_dinajpur"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnParbatipurThanaDinajpur"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/parbatipur_thana_dinajpur"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnPhulbariThanaDinajpur"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/phulbari_thana_dinajpur"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnChirirbandarThanaDinajpur"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/chirirbanda_thana_dinajpur"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSadarThanaDinajpur"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/sadar_thana"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnGoraghatThanaDinajpur"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/ghoraghat_thana_dinajpur"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnHakimpurThanaDinajpur"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/hakimpur_thana_dinajpur"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnKahaloreThanaDinajpur"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/kahalore_thana_dinajpur"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnBiralThanaDinajpur"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/biral_thana_dinajpur"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBirampurThanaDinajpur"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/birampur_thana_dinajpur"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBirganjThanaDinajpur"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/birganj_thana_dinajpur"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnBochaganjThanaDinajpur"
+            style="@style/ButtonText"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rangpur_rounded_corner_button_design"
+            android:text="@string/bochaganj_thana_dinajpur"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>
